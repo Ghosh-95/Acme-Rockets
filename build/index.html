@@ -86,15 +86,78 @@
         </section>
         <hr class="mx-auto bg-black dark:bg-white w-1/2">
 
-        <section id="testimonials" class="p-6 my-12">
+        <section id="testimonials" class="p-6 my-12 scroll-mt-20">
             <h2 class="text-center font-bold text-4xl sm:text-5xl text-slate-900 dark:text-white mb-6">Testimonials</h2>
+
+            <figure class="my-12 max-w-full">
+                <blockquote class="bg-teal-600 dark:bg-black pl-14 pr-8 py-12 rounded-3xl relative">
+                    <p
+                        class="mt-2 text-white dark:text-slate-400 text-2xl sm:text-3xl text-left before:content-['\201C'] before:absolute before:top-0 before:left-0 before:opacity-25 before:translate-x-2 before:translate-y-2 before:font-serif before:text-9xl before:text-white after:content-['\201D'] after:absolute after:-bottom-15 after:right-5 after:opacity-25 after:translate-x-2 after:translate-y-2 after:font-serif after:text-9xl after:text-white">
+                        Acme has always been there for me. Their Explorer rocket
+                        arrived in
+                        a wooden
+                        crate as expected.
+                        Life-long customer! A++ shopping experience.</p>
+                </blockquote>
+                <figcaption class="italic mt-5 text-right text-xl sm:text-2xl text-slate-500 dark:text-slate-400">
+                    &#8212;
+                    Ranjendra Roy, Scientist</figcaption>
+            </figure>
+
+            <figure class="my-12 max-w-full">
+                <blockquote class="bg-teal-600 dark:bg-black pl-14 pr-8 py-12 rounded-3xl relative">
+                    <p
+                        class="mt-2 text-white dark:text-slate-400 text-2xl sm:text-3xl text-left before:content-['\201C'] before:absolute before:top-0 before:left-0 before:opacity-25 before:translate-x-2 before:translate-y-2 before:font-serif before:text-9xl before:text-white after:content-['\201D'] after:absolute after:-bottom-15 after:right-5 after:opacity-25 after:translate-x-2 after:translate-y-2 after:font-serif after:text-9xl after:text-white">
+                        The Acme Adventurer Rocket has thwarted my Illudium Q-36 Explosive Space Modulator on several
+                        occassions. <span class="italic">This makes me very, very angry!</span> Nevertheless, K-9
+                        and I have awarded Acme the
+                        Martian contract for space exploration rockets based on Acme's quality and sturdy designs.</p>
+                </blockquote>
+                <figcaption class="italic mt-5 text-right text-xl sm:text-2xl text-slate-500 dark:text-slate-400">
+                    &#8212;
+                    C. Bhatterjee, Explorer &amp; K-9</figcaption>
+            </figure>
+
+            <figure class="my-12 max-w-full">
+                <blockquote class="bg-teal-600 dark:bg-black pl-14 pr-8 py-12 rounded-3xl relative">
+                    <p
+                        class="mt-2 text-white dark:text-slate-400 text-2xl sm:text-3xl text-left before:content-['\201C'] before:absolute before:top-0 before:left-0 before:opacity-25 before:translate-x-2 before:translate-y-2 before:font-serif before:text-9xl before:text-white after:content-['\201D'] after:absolute after:-bottom-15 after:right-5 after:opacity-25 after:translate-x-2 after:translate-y-2 after:font-serif after:text-9xl after:text-white">
+                        I knew I not only wanted &#8212; <span class="italic">I needed</span> &#8212; Acme's Infinity
+                        Rocket for my mission in space. Acme delivered in one day! Nothing says <q class="italic">Take
+                            me
+                            to your leader</q> like Acme's Infinity Rocket! 💯</p>
+                </blockquote>
+                <figcaption class="italic mt-5 text-right text-xl sm:text-2xl text-slate-500 dark:text-slate-400">
+                    &#8212;
+                    Manna Dey, Finder</figcaption>
+            </figure>
         </section>
         <hr class="mx-auto bg-black dark:bg-white w-1/2">
 
-        <section id="contact" class="p-6 my-12">
+        <section id="contact" class="p-6 my-12 scroll-mt-20">
             <h2 class="text-center font-bold text-4xl sm:text-5xl text-slate-900 dark:text-white mb-6">Contact Us</h2>
+            <form action="" class="max-w-4xl mt-8 mx-auto text-2xl sm:text-3xl flex flex-col items-start gap-4">
+
+                <label for="sub">Subject: </label>
+                <input type="text" name="subject" id="sub" required minlength="3" maxlength="60"
+                    placeholder="Write your query"
+                    class="w-full text-xl sm:text-2xl text-black rounded-2xl p-3 border border-solid border-slate-900 dark:border-none">
+
+                <label for="msg">Message:</label>
+                <textarea name="Message" id="msg" cols="30" rows="10" placeholder="Your message" required
+                    class="w-full rounded-2xl p-4 border border-slate-900 dark:border-none resize-none text-black text-xl sm:text-2xl"></textarea>
+
+                <button
+                    class="bg-teal-700 p-3 rounded-2xl w-35 hover:bg-teal-500 active:bg-teal-600 border border-solid border-slate-900 dark:border-none">Submit</button>
+            </form>
         </section>
     </main>
+
+    <footer id="footer" class="bg-teal-700 text-white text-xl">
+        <section class="max-w-4xl mx-auto flex flex-col sm:flex-row sm:justify-between p-4">
+
+        </section>
+    </footer>
 </body>
 
 </html>
